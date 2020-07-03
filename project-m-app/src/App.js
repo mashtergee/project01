@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>React first page</h1>
+      <h1>Mashter Gee Software</h1>
     </div>
   );
 }
