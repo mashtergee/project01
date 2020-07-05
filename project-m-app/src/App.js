@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Mashter Gee Software</h1>
-      <h2>Using React-App</h2>
+      <h2>Using React-App update autodeploye</h2>
     </div>
   );
 }
