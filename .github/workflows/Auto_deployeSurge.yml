@@ -35,5 +35,5 @@ jobs:
     - name: Creating Build
       run: yarn build      
     - name: deploying surge 
-      run: surge ./ project01_m.surge.sh --token "b0bcd6355ee4d22570772f2ba9b973bc"
+      run: surge ./ project-m-app.surge.sh --token "b0bcd6355ee4d22570772f2ba9b973bc"
         
