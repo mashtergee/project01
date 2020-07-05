@@ -29,15 +29,11 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.1.0
+      uses: Borales/actions-yarn@V2.1.0
       with:
-        # Yarn command:  
-        cmd: install  
-   -name: installing surge 
-      run: yarn build
-   -name: installing surge
-      run: npm install -g surge
-    
+        cmd: install   
+    - name: Creating Build
+      run: yarn build      
     - name: deploying surge 
       run: surge ./ project01_m.surge.sh --token "b0bcd6355ee4d22570772f2ba9b973bc"
         
